@@ -81,7 +81,7 @@ function InsertedCard() {
                 <span className="text-lg font-semibold">Balance Enquiry</span>
               </button>
 
-              <button className="w-full py-5 px-6 bg-gradient-to-r from-green-600 to-emerald-600 text-white rounded-xl hover:from-green-700 hover:to-emerald-700 transition-all transform hover:scale-[1.02] shadow-lg flex items-center justify-center space-x-4 group">
+              <button  onClick={() => navigate("/withdraw-cash") } className="w-full py-5 px-6 bg-gradient-to-r from-green-600 to-emerald-600 text-white rounded-xl hover:from-green-700 hover:to-emerald-700 transition-all transform hover:scale-[1.02] shadow-lg flex items-center justify-center space-x-4 group">
                 <FaMoneyBillWave className="text-2xl group-hover:scale-110 transition-transform" />
                 <span className="text-lg font-semibold">Cash Withdrawal</span>
               </button>
